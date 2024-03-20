@@ -1,5 +1,7 @@
 #!/bin/python
 import sys, os, os.path
+from focus import focus
+foc='focus'
 #name_file=input('name>')
 #name_file=sys.argv[1]
 if sys.argv[1]=='-v' or sys.argv[1]=='--version':
@@ -23,6 +25,9 @@ while True:
     fog=input()
     if fog=='exit':
         break
+     elif foc in fog:
+        with open('test/'+name_file,'a') as file:
+            file.write(focus(fog))
     else:
         with open(name_file,'a') as file:
             file.write(fog + '\n')
