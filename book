@@ -1,0 +1,12 @@
+#!/usr/bin/python3
+
+name_file=input('name>')
+while True:
+    fog=input('>')
+    if fog=='exit':
+        break
+    else:
+        with open(name_file,'a') as file:
+            file.write(fog + '\n')
+
+
