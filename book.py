@@ -2,6 +2,8 @@
 import sys, os, os.path
 #name_file=input('name>')
 #name_file=sys.argv[1]
+if sys.argv[1]=='-v' or sys.argv[1]=='--version':
+    print('version.1.1')
 if sys.argv[1]=='-c':
     os.system('calc')
     sys.exit()
