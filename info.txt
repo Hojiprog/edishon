@@ -1,0 +1,7 @@
+Hi user 
+wellcom editeshon
+command
+-h, --help - help menu
+-o filename - open for reading
+filename - open for editor
+-c - calckulytor
