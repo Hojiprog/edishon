@@ -8,7 +8,7 @@ if sys.argv[1]=='-v' or sys.argv[1]=='--version':
     print('version.1.1')
     sys.exit()
 if sys.argv[1]=='-c':
-    os.system('python3 calc')
+    os.system('python3 calc.py')
     sys.exit()
 if sys.argv[1]!='-o'and sys.argv[1]!='-h'and sys.argv[1]!='-help':
     name_file=sys.argv[1]
