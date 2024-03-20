@@ -5,8 +5,8 @@ def focus(gyt):
     n='@'*len(gyt)
 
     focus = f'''
-         @@{n}@@
-         @@{gyt}@@
-         @@{n}@@
+@@{n}@@
+@@{gyt}@@
+@@{n}@@
     '''
     return focus
