@@ -10,16 +10,15 @@ def power(x,y):
     return x ** y;
 def remainder(x,y):
     return x % y;
-
+print("Select operation.")
+print("1.Add      : + ")
+print("2.Subtract : - ")
+print("3.Multiply : * ")
+print("4.Divide   : / ")
+print("5.Power    : ^ ")
+print("6.Remainder: % ")
+print("7.Terminate: # ")
 while True:
-    print("Select operation.")
-    print("1.Add      : + ")
-    print("2.Subtract : - ")
-    print("3.Multiply : * ")
-    print("4.Divide   : / ")
-    print("5.Power    : ^ ")
-    print("6.Remainder: % ")
-    print("7.Terminate: # ")
     
     choice = input("Enter Choice : ")
     if choice in ('1','2','3','4','5','6','7'):
